@@ -136,6 +136,10 @@ p{
   margin-top: 2rem;
 }
 
+.banner h5{
+  width: 90%;
+}
+
 .card-body{
   border: none;
 }
