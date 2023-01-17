@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+}
+
+html,body{
+  font-family: 'Sofia Sans', sans-serif;
+  color: #1C110A;
+  font-size: 20px;
+}
+
+h5{
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+p{
+  font-size: 20px;
+}
+
+.navbar{
+  background-color: #FFEBD6 !important;  
+}
+
+.nav-item:hover{
+  background-color: #1C110A;
+  border-radius: 999px;
+}
+
+
+
+.navbar-nav .nav-link:hover{
+  color: #FFEBD6;
+}
+
+.carousel-caption{
+  right: 0;
+  top: 2rem;
+  bottom: 0rem;
+  left: 3rem;
+  text-align: left;
+  padding-left: 1.25rem;
+  color: #325D51;
+  }
+
+.carousel-caption h5,p{
+  max-width: 600px;
+}
+
+.btn-outline-primary{
+  border-radius: 999px;
+  border-color: #325D51;
+  border-width: 4px;
+  color: #325D51;
+}
+
+.btn-outline-primary:hover{
+  background-color: #325D51;
+  color: #FFEBD6;
+  border-color: #325D51;
+  transition: 0.3s;
+}
+
+.btn-outline-secondary{
+  border-radius: 999px;
+  border-color: #FFEBD6;
+  border-width: 4px;
+  color: #FFEBD6;
+}
+
+.btn-outline-secondary:hover{
+  background-color: #FFEBD6;
+  color: #325D51;
+  border-color: #FFEBD6;
+  transition: 0.3s;
+}
+
+.carousel-indicators [data-bs-target]{
+  box-sizing: border-box;
+  background-clip:border-box;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background-color: #325D51;
+}
+
+.topics h5{
+  color: #325D51;
+}
+
+.products{
+  height: 255px;
+  max-width: 255px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #FFEBD6;
+  border-radius: 8px;
+}
+
+.products img {
+  height: 90%;
+  object-fit: contain;
+}
+
+
+
+.products p{
+  line-height: 1;
+  font-size: 18px;
+}
+
+.products p{
+  padding-bottom: 2px;
+  margin-bottom: 0;
+}
+
+.banner{
+  height: 400px;
+  background-color: #325D51;
+  color: #FFEBD6;
+  margin-bottom: 3rem;
+}
+
+.banner p{
+  color: #1C110A;
+}
+
+.banner img{
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.banner .container{
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.card-body{
+  border: none;
+}
+
+
+.news img{
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+}
+.news .card-title{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.news .card{
+  border: none;
+  background-color: #FFEBD6;
+  height: 450px;
+}
+
+.news .card-text{
+  line-height: 1;
+  font-size: 18px;
+}
+
+footer{
+  margin-top: 5rem;
+  background-color: #325D51;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #FFEBD6;
+}
+
+footer h5{
+  font-size: 30px;
+}
+
+footer input{
+  width: 100%;
+  background-color: #FFEBD6 !important;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+footer input[type="text"]:focus{
+  border-color: rgba(255, 235, 214, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 235, 214, 0.6);
+  outline: 0 none;
+}
+
+footer .copy p{
+  font-size: 15px;
+}
+
